@@ -47,7 +47,42 @@ $ npm install this-is-truthy
 Usage
 -----
 
-*Work in progress…*
+```js
+import isTruthy from 'this-is-truthy/module';
+// or:
+const isTruthy = require('this-is-truthy');
+```
+
+These are all `true`:
+
+```js
+true::isTruthy();
+5::isTruthy();
+'a'::isTruthy();
+[]::isTruthy();
+{}::isTruthy();
+() => {}::isTruthy();
+```
+
+These are `false`:
+
+```js
+false::isTruthy();
+null::isTruthy();
+undefined::isTruthy();
+0::isTruthy();
+NaN::isTruthy();
+''::isTruthy();
+```
+
+It works great with **[trine](http://npm.im/trine)**:
+
+```js
+const map = require('trine/iterable/map');
+
+[1, 3, , 5, 0, 7]::map(isTruthy);
+//» [1, 3, 5, 7]
+```
 
 
 
