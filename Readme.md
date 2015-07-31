@@ -73,7 +73,7 @@ NaN::isTruthy();
 It works great with **[trine](http://npm.im/trine)**:
 
 ```js
-const take = require('trine/iterable/take');
+const {take} = require('trine/iterable/take');
 
 [1, 3, , 5, 0, 7]::take(isTruthy);
 // yields [1, 3, 5, 7]
