@@ -1,6 +1,6 @@
 {
   "name": "this-is-truthy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if `this` is truthy.",
   "dependencies": {},
   "scripts": {
