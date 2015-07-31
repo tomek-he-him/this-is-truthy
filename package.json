@@ -38,7 +38,15 @@
   ],
   "license": "MIT",
   "keywords": [
-    "<!--keywords-->"
+    "boolean",
+    "true",
+    "holes",
+    "undefined",
+    "null",
+    "false",
+    "falsy",
+    "value",
+    "trine"
   ],
   "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com>",
   "repository": {
