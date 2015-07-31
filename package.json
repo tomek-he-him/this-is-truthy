@@ -43,6 +43,6 @@
   "author": "Tomek Wiszniewski <t.wiszniewski@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "this-is-truthy"
+    "url": "git@github.com:tomekwi/this-is-truthy"
   }
 }
